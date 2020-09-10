@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>my WEB</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- contoh tag p, hr dan br -->
+    <p>Welcome</p>
+    <br>
+    <p>Hello Word <br>Hallo Dunia</p>
+    <hr>
+    <!-- contoh tag b,u dan i -->
+    <P> <b>Selamat datang</b><i> di kabupaten Gowa</i></P>
+    <p><u>Nama saya Randi Ramlan</u></p>
+    <hr>
+    <!-- contoh tag strong dan -->
+    <P><strong>Pengunguman: </strong>pada hari senin kita akan <em>libur</em></P>
+    <hr>
+    <!-- contoh heading -->
+    <!-- h1 untuk judul headline -->
+    <h1 id="keatas">Heading 1</h1>
+     <!-- h2 untuk sub judul  -->
+    <h2>Heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <!-- ol list terurut berbentuk angka dll -->
+    <!-- type 1, A, a, I, i -->
+    <ol type="i">
+        <li>bangun pagi</li>
+        <li>sikat gigi</li>
+        <li>sarapan</li>
+    </ol>
+    <hr>
+    <!-- ul list tidak terurut -->
+    <!-- disc, square dan circle -->
+    <ul type="circle">
+        <li>nasi goreng</li>
+        <li>telur goreng</li>
+        <li>kerupuk</li>
+    </ul>
+    <hr>
+    <!-- Denisi list membuat deskripsi -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertest markup language</dd>
+        <dt>JS</dt>
+        <dd>Java Script</dd>
+    </dl>
+    <hr>
+    <!-- hyperlink -->
+    <!-- jika halaman baru _self (halaman sama), _blank (new tab ), _parent dan _top -->
+    <p><a href="https://www.jobstreet.co.id/">klik disini</a> untuk mendapatkan informasi kerjaan</p>
+    <p><a href="https://www.google.co.id/?hl=id" target="_blank">klik disini</a> untuk mendapatkan informasi yang banyak</p>
+    <p><a href="latihan.html">klik disini</a> untuk mendapatkan informasi latihan</p>
+    <p><a href="#keatas">klik disini</a> untuk mendapatkan informasi yang sama</p>
+    <hr>
+    <!-- hyperlink menggunakan image -->
+    <a href="https://www.google.co.id/?hl=id">
+        <img src="../Image/google.PNG" alt="Test Gambar" srcset="">
+    </a>
+    <hr>
+    <!-- table -->
+    <table border="1" cellspacing="5" cellpadding="5">
+        <tr>
+            <td>Nama</td>
+            <td>Umur</td>
+        </tr>
+        <tr>
+            <td>Randi Ramlan</td>
+            <td>29</td>
+        </tr>
+    </table>
+    <br><br><br>
+
+<!-- table kompleks -->
+<table border="1" cellspacing="5" cellpadding="5">
+        <thead>
+            <tr>
+                <th>index</th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td>baris 1 kolom 1</td>
+                <td>baris 1 kolom 2</td>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <td>baris 2 kolom 1</td>
+                <td>baris 2 kolom 2</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br><br><br>
+<!-- colspan : menggabung kolom pada baris yang sama dan rowspan : mengabung baris pada kolom yang sama -->
+    <table border="1" cellspacing="5" cellpadding="5">
+        <tr>
+            <td rowspan="2">gabung</td>
+            <td colspan="2">gabung</td>
+            
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- form : elemen pada halam saat input data-->
+<form action="">
+    <label for="username">Username :</label> 
+    <input type="text" id="username">
+    <br>
+    <label for="password">Password :</label>
+    <input type="password" id="password">
+    <br>
+    <label for="select">Kota Asal : </label>
+    <select name="select" id="select">
+        <option value="select">Makassar</option>
+        <option value="select">Pare Pare</option>\
+        <option value="select">Gowa</option>
+    </select>
+    <br>
+    <label for="Jenis Kelamin">Jenis Kelamin : </label>
+    <br>
+    <input type="radio" id="Pria" name="jeniskelamin"><label for="Pria" >Laki Laki</label>
+    <input type="radio" id="Wanita" name="jeniskelamin"><label for="Wanita" >Perempuan</label>
+    <br>
+    <label for="Hobby">Hobby : </label>
+    <br>
+    <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+    <input type="checkbox" id="renang"><label for="renang">berenang</label>
+    <br>
+    <label for="area">Tentang Diri Anda :</label>
+    <br>
+    <textarea name="area" id="area" cols="30" rows="10"></textarea>
+    <br>
+    <button type="submit">Kirim</button>
+</form>
+<hr>
+</body>
+</html>
