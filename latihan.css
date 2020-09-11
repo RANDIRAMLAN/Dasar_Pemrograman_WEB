@@ -1,0 +1,36 @@
+body{
+background-color: whitesmoke;
+/* background-image: url(../Image/google.PNG) */
+/* subtlepatterns untuk melihat gambar pola */
+}
+
+h1 {
+    font-family: arial;
+    font-weight: 200;
+    color: black;
+    font-size: 100 px;
+    text-align: center;
+}
+
+p {
+    font-family: arial;
+    text-align: justify;
+    font-style: italic;
+    
+}
+
+ul li a {
+    color: rgb(2, 19, 32);
+}
+
+ol li a {
+    color: yellow;
+}
+
+/* #p1{
+    color: snow;
+} 
+.p2{
+    color: tomato;
+} */
+
